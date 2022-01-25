@@ -1,0 +1,19 @@
+@keyframes divPhotoEffect {
+  from {
+    margin-bottom: 0;
+  }
+
+  to {
+    margin-bottom: 20px;
+  }
+}
+
+@keyframes divPhotoEffect2 {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
