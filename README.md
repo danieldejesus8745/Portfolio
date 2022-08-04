@@ -1,2 +1,6 @@
-# portfolio
-Meu portfólio
+# Portfolio
+My portfolio
+
+# Stack
+  - HTML
+  - CSS
