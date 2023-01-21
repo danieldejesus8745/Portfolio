@@ -6,59 +6,65 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfólio | Daniel de Jesus</title>
     <link rel="stylesheet" href="css/index.css" />
-    <link rel="stylesheet" href="css/key-frames.css" />
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons|Material+Icons+Outlined" rel="stylesheet" />
+    <link rel="stylesheet" href="css/index.min.css" />
+    <link rel="stylesheet" href="css/keyframes.css" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
   </head>
   <body>
 
-    <main>
-      <div class="div-photo">
-        <div class="name-and-career">
-          <h1>Daniel de Jesus</h1>
-          <p>Desenvolvedor full stack</p>
-        </div>
-        <div class="photo"></div>
-        <div class="div-buttons">
-          <button>Download Cv</button>
-          <a href="#div-about-me"><button class="btn-filled">Sobre mim</button></a>
-        </div>
+    <section class="section presentation" id="presentation">
+      <h1>Daniel de Jesus</h1>
+      <p>Software Developer</p>
+      <div class="photo"></div>
+      <div class="buttons">
+        <a href="files/Daniel de Jesus - Currículo.pdf" download><button>Download Cv</button></a>
+        <a href="#about"><button class="filled-button">Sobre mim</button></a>
       </div>
+    </section>
 
-      <div class="div-about-me" id="div-about-me">
-        <div class="center-about-me">
-          <div class="div-title">
-            <p>Minha intro</p>
-            <p class="title">Sobre mim</p>
-          </div>
-          <div class="div-content">
-            <div class="left-photo"></div>
-            <div class="about-me">
-              <div class="main-facts">
-                <div class="fact">
-                  <div class="icon"><span class="material-icons">work_outline</span></div>
-                  <div class="fact-title">Experiência</div>
-                  <div class="fact-subtitle">1 trabalhando</div>
-                </div>
-                <div class="fact">
-                  <div class="icon"><span class="material-icons-outlined">check_circle</span></div>
-                  <div class="fact-title">Concluídos</div>
-                  <div class="fact-subtitle">5 projetos</div>
-                </div>
-                <div class="fact">
-                  <div class="icon"><span class="material-icons">headset_mic</span></div>
-                  <div class="fact-title">Experience</div>
-                  <div class="fact-subtitle">Online 24/7</div>
-                </div>
-              </div>
-              <div class="text-about-me">Em resumo, sou apaixonado por programação. Desde que conheci essa área decidi que seria um programador. Estou muito feliz com a minha carreira até aqui e com boas expectativas pelo o que ainda vem por aí.</div>
-              <div class="contact-button">
-                <button class="btn-filled">Fale comigo</button>
-              </div>
+    <section class="section about" id="about">
+      <p>Minha intro</p>
+      <h1>Sobre mim</h1>
+      <div class="summary">
+        <div class="left"></div>
+        <div class="right">
+          <div class="hobbies">
+            <div class="hobby">
+              <span class="material-icons">headset</span>
+              <strong>Playlist</strong>
+              <span>Eclético</span>
+            </div>
+            <div class="hobby">
+              <span class="material-icons">sports_soccer</span>
+              <strong>Esportes</strong>
+              <span>Futebol</span>
+            </div>
+            <div class="hobby">
+              <span class="material-icons">music_note</span>
+              <strong>Hobby</strong>
+              <span>Tocar / Cantar</span>
             </div>
           </div>
+          <div class="text">
+            <span>Em resumo, sou apaixonado por programação. Desde que conheci essa profissão decidi que seria um programador. Estou muito feliz com a minha carreira até aqui e com boas expectativas do que vem pela frente.</span>
+          </div>
+          <a href="#stack"><button class="filled-button">Minha Stack</button></a>
         </div>
       </div>
-    </main>
+    </section>
+
+    <section class="section stack" id="stack">
+      <p>Ferramentas</p>
+      <h1>Minha Stack</h1>
+    </section>
+
+    <section class="section projects" id="projects"></section>
+
+    <section class="section contact" id="contact"></section>
+
+    <a href="#" id="back-to-the-top" class="back-to-the-top"><span>Voltar ao topo ↑</span></a>
+
+    <script src="js/index.js"></script>
 
   </body>
 </html>
