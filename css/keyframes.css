@@ -9,3 +9,13 @@
     opacity: 1;
   }
 }
+
+@keyframes roofContentEffect {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
