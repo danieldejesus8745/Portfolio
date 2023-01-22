@@ -21,6 +21,10 @@
     margin: 5px;
   }
 
+  .stack {
+    height: 150vh;
+  }
+
   .projects {
     height: 150vh;
   }
